@@ -116,8 +116,8 @@ class Profile extends React.Component {
                           <span className="description">Level</span>
                         </div>
                         <div>
-                          <span className="heading">6</span>
-                          <span className="description">Followers</span>
+                          <span className="heading">5</span>
+                          <span className="description">Experience</span>
                         </div>
                       </div>
                     </Col>
