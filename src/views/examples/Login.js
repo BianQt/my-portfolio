@@ -40,6 +40,7 @@ import SimpleFooter from "components/Footers/SimpleFooter.js";
 import github from "assets/img/icons/common/github.svg";
 import googleImg from "assets/img/icons/common/google.svg";
 
+
 class Login extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
