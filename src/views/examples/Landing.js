@@ -509,6 +509,57 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+          <section className="section pb-0 bg-gradient-warning" style={{marginBottom:"150px"}}>
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-lg-2 ml-lg-auto" md="6">
+                  <div className="position-relative pl-md-5">
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={ill2}
+                    />
+                  </div>
+                </Col>
+                <Col className="order-lg-1" lg="6">
+                  <div className="d-flex px-3">
+                    <div>
+                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-warning">
+                      <i class="far fa-address-card"></i>
+                      </div>
+                    </div>
+                    <div className="pl-4">
+                      <h4 className="display-3 text-white">About Me</h4>
+                      <p className="text-white">
+                      A Software Developer with 5 years of experience in
+                          the Industrial Automation feild, with a solid
+                          skills in Problem-solving, programming, data structures and algorithms, troubleshooting,
+                           and technical project management.
+                      </p>
+                    </div>
+                  </div>
+               
+                </Col>
+              </Row>
+            </Container>
+            {/* SVG separator */}
+            <div className="separator separator-bottom separator-skew zindex-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                version="1.1"
+                viewBox="0 0 2560 100"
+                x="0"
+                y="0"
+              >
+                <polygon
+                  className="fill-white"
+                  points="2560 0 2560 100 0 100"
+                />
+              </svg>
+            </div>
+          </section>
+          
         </main>
         <SimpleFooter />
       </>

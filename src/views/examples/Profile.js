@@ -87,7 +87,7 @@ class Profile extends React.Component {
                       <div className="card-profile-actions py-4 mt-lg-0">
                         <Button
                           className="mr-4"
-                          color="info"
+                          color="warning"
                           href="#pablo"
                           onClick={(e) => e.preventDefault()}
                           size="sm"
@@ -107,6 +107,10 @@ class Profile extends React.Component {
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
+                      <div>
+                          <span className="heading">+4</span>
+                          <span className="description">Experience</span>
+                        </div>
                         <div>
                           <span className="heading">16</span>
                           <span className="description">Repositories</span>
@@ -115,10 +119,7 @@ class Profile extends React.Component {
                           <span className="heading">3</span>
                           <span className="description">Level</span>
                         </div>
-                        <div>
-                          <span className="heading">5</span>
-                          <span className="description">Experience</span>
-                        </div>
+                        
                       </div>
                     </Col>
                   </Row>
@@ -145,13 +146,11 @@ class Profile extends React.Component {
                       <Col lg="9">
                         <p>
                           A Software Developer with 5 years of experience in
-                          the Industrial Automation feild, with high proficiency and solid
+                          the Industrial Automation feild, with a solid
                           skills in Problem-solving, programming, data structures and algorithms, troubleshooting,
                            and technical project management.
                         </p>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Show more
-                        </a>
+                       
                       </Col>
                     </Row>
                   </div>
