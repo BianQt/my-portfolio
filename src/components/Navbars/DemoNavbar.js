@@ -41,6 +41,13 @@ import {
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
 
+let menuStyle ={
+  fontSize: "20px",
+  fontWeight: "700",
+  marginTop: "10px",
+};
+
+
 class DemoNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -176,7 +183,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text" style={menuStyle}>Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/portfolio" tag={Link}>

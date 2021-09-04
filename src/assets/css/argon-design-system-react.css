@@ -13490,29 +13490,29 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-skew span {
       transform: skew(4deg); }
   .section-shaped .shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(150deg, #838114 15%, #d59c6e 70%, #d9a282 94%); }
     .section-shaped .shape-primary :nth-child(1) {
       background: #53f; }
     .section-shaped .shape-primary :nth-child(2) {
-      background: #4553ff; }
+      background: #ffe345; }
     .section-shaped .shape-primary :nth-child(3) {
-      background: #4f40ff; }
+      background: #52c52f; }
     .section-shaped .shape-primary :nth-child(4) {
       background: #25ddf5; }
     .section-shaped .shape-primary :nth-child(5) {
       background: #1fa2ff; }
   .section-shaped .shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(150deg, #77f893 15%, #e5c867 70%, #bf5c55 94%); }
     .section-shaped .shape-default :nth-child(1) {
-      background: #7795f8; }
+      background: #f8e577; }
     .section-shaped .shape-default :nth-child(2) {
-      background: #7b9aff; }
+      background: #31c913; }
     .section-shaped .shape-default :nth-child(3) {
-      background: #6f8ff8; }
+      background: #f8df6f; }
     .section-shaped .shape-default :nth-child(4) {
-      background: #76eea7; }
+      background: #e6ee76; }
     .section-shaped .shape-default :nth-child(5) {
-      background: #6adaff; }
+      background: #ffa16a; }
   .section-shaped .shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
     .section-shaped .shape-light :nth-child(1) {
@@ -13610,7 +13610,7 @@ textarea[resize="horizontal"] {
   .section-shaped .shape-style-1.shape-primary {
     background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
   .section-shaped .shape-style-1.shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(150deg, #d44d0f 15%, #e58b67 70%, #191b4d 94%); }
   .section-shaped .shape-style-1.shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
   .section-shaped .shape-style-1.shape-dark {
